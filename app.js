@@ -1,16 +1,20 @@
-// это коменты
+// Операторы присваивания
 
-// Базовые арифметические операторы  
-//  + * - /  ** - степень
+let age = 18 + 5;
+age += 2;
+age -= 3;
+age *= 2;
+age /= 11;
+age++;
+console.log(age);
 
-const width = 10;
-const heigth = 5;
-const space = width * heigth;
-console.log(space);
+
+// Операторы сравнения
 
 
-// строки
-const city = 'Москва';
-const street = 'Кривенко';
-console.log(city + ', ' + street + ' ' + 5);
-
+const vasia = 20;
+console.log(age > vasia);
+console.log(age >= vasia);
+console.log(age < vasia);
+console.log(age <= vasia);
+console.log(age == vasia);
